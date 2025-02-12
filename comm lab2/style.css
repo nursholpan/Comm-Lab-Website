@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+body {
+  background-color: white;
+  margin:0px;
+  padding: 0px;
+  font-family: times;
+}
+
+/*-----------------------------------------
+  NAVIGATION BAR STYLING            
+-------------------------------------------*/
+.Menu {
+  display: flex;
+  position: fixed;
+/*  background-color: white;*/
+  left: 70%; 
+  height:4% ;
+  width: 100%;
+  padding: 0; 
+  font-family: calibri;
+  transition: background-color 0.3s;
+}
+
+.Menu a:hover {
+  background-color: #405A4F;
+  padding: 3px;
+}
+li {
+  display: inline-block; 
+  margin-left: 0;
+}
+li a{
+  color: black;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+/*-----------------------------------------
+  HERO SECTION STYLING            
+-------------------------------------------*/
+
+.Hero-Section {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; /*justifies the content to the centere vertically */
+  padding-right: 10px; /*for some gap from the right */ 
+  height: 85vh;
+  background-image: url(peace.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  background-attachment: fixed;*/
+}
+
+h1 {
+  background-attachment: fixed;
+  color: white;
+  font-size: 42px;
+  padding-left: 30px;
+  margin-top: 33%;
+}
+
+/*-----------------------------------------
+  SUB-HERO SECTION STYLING            
+-------------------------------------------*/
+/*.Subheadings {
+  background-color: black;
+}*/
+.Intro {
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;  
+  align-items: center;
+}
+.Intro h2 {
+  font-family: monospace;
+  font-size: 3rem;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+/*-----------------------------------------
+ FIRST CONTENT STYLING            
+-------------------------------------------*/
+
+.FirstContent {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  background-color: #405A4F;
+  color: white;
+  flex-direction: column;
+}
+
+iframe {
+  justify-content: center;
+  padding: 0%;
+  border: 100%;
+}
